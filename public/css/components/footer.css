@@ -1,0 +1,138 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.jci-footer {
+    width: 100%;
+    background: #1E2F3F;
+    padding-top: 50px;
+    top: 0;
+    left: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-top,
+.footer-bottom {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 120px;
+}
+
+.footer-col { 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.footer-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+    opacity: .85;
+}
+
+.footer-link:hover { 
+    opacity: 1; 
+}
+
+.footer-subtext { 
+    font-size: 14px; 
+    opacity: .85; 
+    margin-bottom: 10px; 
+}
+
+.footer-input-box {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius: 6px;
+    width: 180px;
+}
+
+.footer-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 13px;
+    font-family: "Poppins";
+}
+
+.footer-input::placeholder{
+    color: rgba(169, 169, 169, 0.65);
+    font-family: "Poppins", sans-serif;
+}
+
+.mail-icon { 
+    width: 18px; height: 18px;
+    opacity: 0.40;
+}
+
+.footer-hr-wrap {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 14px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-social:hover { 
+    opacity: 1; 
+}
+
+.footer-hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.footer-middle {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom {
+    width: 95%;
+    margin: 10px auto 20px auto;
+    text-align: left;
+    font-size: 14px;
+    color: #ffffffbc;
+}
+
+@media (max-width: 900px) {
+    .footer-top { flex-direction: column; gap: 30px; }
+    .footer-bottom { flex-direction: column; text-align: center; gap: 20px; }
+}

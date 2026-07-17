@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #192853;
+    padding: 16px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.nav-inner {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    opacity: 0.75;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.box {
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    height: 20px;
+}
+
+.search-box {
+    width: 180px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-box input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #333;
+    font-size: 14px;
+}
+
+.search-box input::placeholder {
+    color: rgba(169, 169, 169, 0.65);
+}
+
+.username {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+.icon-img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    display: block;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #0A2A66;
+    padding: 15px 20px;
+    gap: 12px;
+}
+
+.mobile-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.mobile-menu.open {
+    display: flex;
+}
+
+@media (max-width: 950px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-actions {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}

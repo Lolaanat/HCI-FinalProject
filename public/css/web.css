@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 88px;
+    margin: 0;
+}
+
+.forum-section {
+    min-height: calc(100vh - 88px - 250px);
+}
+
+footer {
+    position: static !important;
+}
+
+.forum-section {
+    padding: 70px 120px;
+    background: #fafafa;
+}
+
+.forum-title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
