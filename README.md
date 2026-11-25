@@ -1,66 +1,78 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# 🚁 JCI – Drone E-Commerce Website
 
-## About Laravel
+Welcome to the **JCI Drone E-Commerce Website** project! 👋
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+This project was developed as part of the **Human-Computer Interaction (HCI) Final Project** at BINUS University. It focuses on designing and developing a drone e-commerce website with a structured interface and multiple pages to showcase products and provide information to users.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🎯 Project Overview
 
-## Learning Laravel
+The main objective of this project is to develop a website prototype for a drone e-commerce platform, focusing on website structure, visual presentation, and user interface design.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+The website provides several pages to help users explore drone products, browse the store, access discussions, and find contact information.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🛠️ Technologies Used
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Laravel 12** – Web application framework.
+- **PHP** – Backend framework language.
+- **Blade** – Template engine for rendering website pages.
+- **HTML & CSS** – Website structure and styling.
+- **JavaScript** – Frontend interactions.
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## ✨ Website Pages & Features
 
-### Premium Partners
+### 🏠 1. Home
+The main landing page introducing JCI and showcasing featured drone products through a visual banner and homepage sections.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### 🛍️ 2. Products
+A product showcase page displaying available drone products, allowing visitors to explore the product selection.
 
-## Contributing
+### 🏬 3. Store
+A dedicated store page providing an overview of the JCI shopping section.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 💬 4. Forum
+A discussion-oriented page designed to provide a dedicated space for community-related content.
 
-## Code of Conduct
+### 📩 5. Contact Us
+A contact page containing information and a form layout for visitors who want to get in touch with JCI.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📂 Project Structure
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+The project follows a Laravel application structure, with its main components organized into:
 
-## License
+- `app/` – Application logic and core components.
+- `public/` – Public assets and resources.
+- `resources/views/` – Blade templates for website pages.
+- `routes/` – Application routing configuration.
+- `config/` – Application configuration files.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+## 💡 Key Takeaways
+
+Through this project, I gained practical experience in:
+
+- Developing multi-page websites using Laravel.
+- Structuring web pages with Blade templates.
+- Organizing website components and routes.
+- Applying frontend styling and layout principles.
+- Understanding user interface design and website navigation.
+- Building a structured website prototype for an e-commerce concept.
+
+---
+
+## 🎓 Project Information
+
+- **Course:** Human-Computer Interaction (HCI)
+- **Project:** Final Project
+- **Website Concept:** Drone E-Commerce
+
+---
+
+✨ *Designing a digital experience through structured interfaces and user-centered web development.*
